@@ -1,0 +1,15 @@
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12px;         /* Smaller width */
+    height: 12px;        /* Smaller height */
+    background-color: white;
+    border: 2px solid gold;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 10000;
+    mix-blend-mode: difference; /* Optional: gives luxury glowing effect */
+    transition: transform 0.08s ease;
+  }
+  
